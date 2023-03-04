@@ -27,3 +27,4 @@ string_calculator-*.tar
 
 lib/*.ex~
 test/*.ex~
+**/*.swp
