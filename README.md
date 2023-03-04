@@ -1,6 +1,8 @@
 # StringCalculator
 
-**TODO: Add description**
+Implementation of the string calculator kata as described [here](https://kata-log.rocks/string-calculator-kata) using Elixir.
+
+## From default hex readme:
 
 ## Installation
 
