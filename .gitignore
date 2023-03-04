@@ -28,3 +28,5 @@ string_calculator-*.tar
 # custom
 lib/*.ex~
 test/*.exs~
+test/*.ex~
+**/*.swp
