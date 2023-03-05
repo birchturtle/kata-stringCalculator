@@ -6,11 +6,8 @@ defmodule StringCalculator do
   """
 
   def add(numbers) do
-    numbers
-    |> split_number_string()
-    |> Enum.reduce(0, fn(n, acc) -> String.to_integer(n) + acc end)
-  end
-  defp split_number_string(numberstring) do
-    Regex.split(~r/[,\n]/, numberstring)
+    Regex.split(~r/[,\n]/, numbers)
+    |> Enum.map(fn s -> String.to_integer(s) end)
+    |> Enum.reduce(0, fn(n, acc) -> n + acc end)
   end
 end
